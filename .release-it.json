@@ -2,9 +2,9 @@
   "$schema": "https://unpkg.com/release-it@19/schema/release-it.json",
   "git": {
     "commitMessage": "chore: release ${version}",
-    "commit": false,
-    "tag": false,
-    "push": false,
+    "commit": true,
+    "tag": true,
+    "push": true,
     "requireCleanWorkingDir": true,
     "requireUpstream": true
   },
@@ -12,5 +12,11 @@
     "release": true,
     "releaseName": "Release ${version}",
     "assets": [".output/*.zip"]
+  },
+  "npm": {
+    "publish": false
+  },
+  "hooks": {
+    "after:bump": ["pnpm build", "pnpm zip"]
   }
 }
