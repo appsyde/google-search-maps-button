@@ -24,9 +24,11 @@
     "zip": "wxt zip",
     "zip:firefox": "wxt zip -b firefox",
     "compile": "tsc --noEmit",
-    "postinstall": "wxt prepare"
+    "postinstall": "wxt prepare",
+    "release-it": "release-it"
   },
   "devDependencies": {
+    "release-it": "^19.0.6",
     "typescript": "^5.9.2",
     "wxt": "^0.20.6"
   },
