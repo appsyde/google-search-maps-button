@@ -4,12 +4,6 @@ import { defineConfig } from 'wxt'
 export default defineConfig({
   manifest: {
     name: 'Google Search Maps Button',
-    host_permissions: [
-      '*://*.google.com/*',
-      '*://*.google.de/*',
-      '*://*.google.at/*',
-      '*://*.google.ch/*',
-    ],
   },
   webExt: {
     disabled: true, // Disable browser startup
