@@ -2,7 +2,7 @@
   "name": "google-search-maps-button",
   "description": "A browser extension that adds a Google Maps button to Google Search results.",
   "private": true,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/appsyde/google-search-maps-button.git"
